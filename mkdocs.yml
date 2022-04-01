@@ -1,0 +1,22 @@
+site_name: Momento
+extra:
+  homepage: https://momentohq.com
+repo_url: https://github.com/momentohq
+theme:
+  name: material
+  logo: assets/squirrel.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+      primary: white
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate 
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      primary: blue grey
+
+
