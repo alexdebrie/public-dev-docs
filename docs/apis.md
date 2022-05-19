@@ -18,7 +18,7 @@ Attributes:
 
 Name | Type | Description
 ---|---|---
-cacheName | String | Name of the cache to be created.
+cacheName | String | Name of the cache to be deleted.
 
 ### List Caches
 Lists all caches for the provided auth token.
@@ -36,7 +36,7 @@ Sets the value in cache with a given Time To Live (TTL) seconds. If a value for 
 
 Name | Type | Description 
 ---|---|---
-cacheName | String | Name of the cache to be created. 
+cacheName | String | Name of the cache. 
 key | []Byte | The key under which the value is to be added.
 value | []Byte | The value to be stored.
 ttlSeconds | int | Time to Live for the item in Cache.
@@ -47,7 +47,7 @@ Get the cache value stored for the given key.
 
 Name | Type | Description 
 ---|---|---
-cacheName | String | Name of the cache to be created. 
+cacheName | String | Name of the cache. 
 key | []Byte | The key under which the value is to be added.
 
 
